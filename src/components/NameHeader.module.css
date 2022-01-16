@@ -1,0 +1,24 @@
+.container {
+    /* border: 2px solid rgb(49, 11, 18); */
+    position: relative;
+}
+
+.nameHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 80px;
+    width: 100%;
+    height: 8rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Questrial', sans-serif;
+}
+
+.liner {
+    width: 80%;
+    border-bottom: 4px solid brown;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: .5rem;
+}

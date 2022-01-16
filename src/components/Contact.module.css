@@ -1,0 +1,42 @@
+.container {
+    border-left: 4px solid brown;
+    border-right: 4px solid brown;
+    border-radius: 15px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding-top: 1rem;
+    width: 95%;
+    height: 380px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.element {
+    /* border: 2px solid brown; */
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+.logo {
+    margin-top: .02%;
+}
+
+.desc {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+#linkTag {
+    color: rgb(186, 143, 226);
+}
+
+#linkTag:hover {
+    color: brown;
+}
