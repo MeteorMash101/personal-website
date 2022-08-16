@@ -257,7 +257,7 @@ const PROJECTS_INFO = [
         name: "Fitness Tracker",
         desc: "Fitness website for users to be able to keep track of, and save their exercise acitivities and plans.",
         techStack: ["Javascript/HTML/CSS", "Express", "SQLLite"],
-        status: 3,
+        status: 2,
         githubLink: "https://github.com/MeteorMash101/fitness-tracker",
         demoLink: null, // optional
         imgPaths: [
