@@ -1,9 +1,0 @@
-.container {
-    /* border: 2px solid black; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}

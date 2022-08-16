@@ -1,0 +1,36 @@
+.option {
+    /* border: 2px solid brown; */
+    display: flex;
+    align-items: center;
+    margin: 1.0rem .5rem;
+}
+
+.desc {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+.linkOption {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+#linkedin {
+    color: rgb(93, 147, 235);
+    width: auto;
+}
+
+#linkedin:hover {
+    color: rgb(138, 176, 236);
+}
+
+#github {
+    color: rgb(160, 94, 222);
+}
+
+#github:hover {
+    color: rgb(186, 143, 226);
+}

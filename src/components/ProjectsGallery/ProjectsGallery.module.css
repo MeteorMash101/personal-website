@@ -1,0 +1,19 @@
+.container {
+    /* border: 5px solid purple; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem .4rem;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        /* border: 5px solid rgb(186, 53, 139); */
+        flex-direction: column;
+        width: 95%;
+    }
+}

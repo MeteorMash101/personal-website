@@ -1,0 +1,36 @@
+.wrapper {
+    /* border: 5px solid pink; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 140px;
+    max-width: 140px;
+    height: auto;
+    padding: .4rem .4rem;
+    margin: 1.2rem 1.2rem;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 0 3px 3px #000;
+    -moz-box-shadow:0 3px 3px #000;
+    -webkit-box-shadow:0 3px 3px #000;
+}
+
+/* Adding styles on 'active' state */
+.container:active {
+    transform: translateY(4px);
+    /* Moving button 4px to y-axis */
+}
+
+.container:hover {
+    cursor: pointer;
+}

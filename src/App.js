@@ -1,16 +1,25 @@
-import NameHeader from './components/NameHeader.js'
-import ProfileSection from './components/ProfileSection.js';
-import ButtonSection from './components/ButtonSection.js';
-// (CANCELLED FOR NOW, MAYBE IN THE FUTURE.)
-// import SocialMediaBar from './components/SocialMediaBar.js'; 
+import Banner from './components/UI/Banner.js';
+import ProfileCard from './components/Profile/ProfileCard.js';
+// import ButtonSection from './components/ButtonSection.js';
+import SelectionWindow from './components/SelectionWindow/SelectionWindow.js';
+import TopSectionWrapper from './components/UI/TopSectionWrapper.js';
+import BackToTopButton from './components/UI/BackToTopButton';
+import ProjectsSectionHeader from './components/UI/ProjectsSectionHeader';
+import ProjectsGallery from './components/ProjectsGallery/ProjectsGallery';
+import { Fragment } from 'react';
 
 const App = () => {
   return (
-    <div>
-      <NameHeader/>
-      <ProfileSection/>
-      <ButtonSection/>
-    </div>
+    <Fragment>
+      <Banner/>
+      <TopSectionWrapper>
+        <ProfileCard/>
+        <SelectionWindow/>
+      </TopSectionWrapper>
+      <ProjectsSectionHeader/>
+      <ProjectsGallery/>
+      <BackToTopButton/>
+    </Fragment>
   );
 }
 

@@ -1,0 +1,6 @@
+.container {
+    /* border: 5px solid brown; */
+    display: flex;
+    /* justify-content: c; */
+    width: 100%;
+}

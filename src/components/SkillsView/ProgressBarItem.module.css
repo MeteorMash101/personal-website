@@ -1,0 +1,33 @@
+.container {
+    /* display flex breaks */
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    width: 18%;
+    height: auto;
+    padding: .6rem .6rem;
+    margin: .4rem 1rem;
+    min-width: 120px;
+    max-width: 130px;
+}
+
+.language {
+    color: black;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+#pbs1 {
+    background-color: rgb(68, 68, 68);
+    color: rgb(231, 105, 105);
+}
+
+#pbs2 {
+    background-color: rgb(68, 68, 68);
+    color: rgb(134, 235, 139);
+}
+
+#pbs3 {
+    background-color: rgb(68, 68, 68);
+    color: rgb(132, 226, 230);
+}

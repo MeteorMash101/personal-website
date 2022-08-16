@@ -1,0 +1,68 @@
+:root {
+    --scrollbar-color: #e9b2b2;
+}
+
+.container {
+    /* border: 5px solid yellowgreen; */
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container::-webkit-scrollbar {
+    /* Remove scrollbar space */
+    width: 12px;  
+    /* Optional: just make scrollbar invisible */
+    background: transparent;  
+}
+
+/* Optional: show position indicator in red */
+.container::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-color);
+    border-radius: 8px;
+}
+
+.dateNLoc {
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    width: 60%;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
+
+.contentTitle {
+    color: rgb(237, 209, 47);
+}
+
+.contentDate, .contentLocation {
+    color: rgb(150, 130, 17);
+}
+
+.contentBullets {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.hobbiesTempContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbiesCuteGif {
+    border-radius: 30%;
+    width: 40%;
+    min-width: 200px;
+}
+
+.hobbiesPrettyText {
+    font-size: 2rem;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+}
