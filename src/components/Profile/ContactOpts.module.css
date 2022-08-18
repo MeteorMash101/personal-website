@@ -34,3 +34,10 @@
 #github:hover {
     color: rgb(186, 143, 226);
 }
+
+
+@media only screen and (max-width: 420px) {
+    .desc {
+        font-size: 14px;
+    }
+}

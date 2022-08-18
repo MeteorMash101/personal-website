@@ -52,7 +52,7 @@ const ProjectCard = ({imageURLs, name, desc, techStack, status, githubLink}) => 
             <p className={classes.tstack}><b>Tech Stack:</b> {techStack.join(", ")}</p>
             <div className={classes.bottomOpts}>
                 <div className={classes.status} id={statusLevelStyle}>{status}</div>
-                <a className={classes.githubLogoAnchorTag} style={{textDecoration: 'none'}} href={githubLink}>
+                <a className={classes.githubLogoAnchorTag} style={{textDecoration: 'none'}} href={githubLink} target="_blank">
                     <AiFillGithub className={classes.githubLogo}/>
                 </a>
             </div>

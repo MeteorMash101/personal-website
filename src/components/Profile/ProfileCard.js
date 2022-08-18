@@ -13,7 +13,7 @@ const ProfileCard = () => {
 					<img src={profile_pic} className={classes.pp}/>
 					<div className={classes.nameQuoteContainer}>
 						<h1 className={classes.name}>Shelby Sakamoto</h1>
-						<p><i style={{color: "black"}}>{MOTTO}</i></p>
+						<p><i style={{color: "black"}} className={classes.quote}>{MOTTO}</i></p>
 					</div>
 				</div>
 				<div className={classes.aboutMeContainer}>

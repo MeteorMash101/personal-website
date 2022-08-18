@@ -1,3 +1,7 @@
+:root {
+    --scrollbar-color: #e9b2b2;
+}
+
 .container {
     /* border: 5px solid rgb(203, 28, 203); */
     display: flex;
@@ -43,13 +47,23 @@
     height: 95%;
     /* x-axis scroll */
     overflow: scroll;
+    overflow-y: hidden;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
     margin-bottom: 1rem;
 }
 
-.progBarcontainer::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+.progBarcontainer::-webkit-scrollbar {
+    /* Remove scrollbar space */
+    width: 12px;
+    /* Optional: just make scrollbar invisible */
+    background: transparent;
+}
+
+/* Optional: show position indicator in red */
+.progBarcontainer::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-color);
+    border-radius: 8px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -63,5 +77,14 @@
     .tableOfContents {
         width: 80%;
         justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .tableOfContents {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        line-height: 2.2rem;
     }
 }

@@ -3,6 +3,9 @@ import ProgressBarItem from './ProgressBarItem';
 import { SKILLS_LEARNING } from '../../constants';
 
 const SkillsView = () => {
+    var root = document.querySelector(":root");
+    root = document.querySelector(":root");
+    root.style.setProperty("--scrollbar-color", "rgb(239, 237, 210)");
     return (
         <div className={classes.container}>
             {/* Table of Contents */}

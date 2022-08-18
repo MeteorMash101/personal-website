@@ -6,11 +6,11 @@ import TopSectionWrapper from './components/UI/TopSectionWrapper.js';
 import BackToTopButton from './components/UI/BackToTopButton';
 import ProjectsSectionHeader from './components/UI/ProjectsSectionHeader';
 import ProjectsGallery from './components/ProjectsGallery/ProjectsGallery';
-import { Fragment } from 'react';
+import MainContainer from './components/UI/MainContainer.js';
 
 const App = () => {
   return (
-    <Fragment>
+    <MainContainer>
       <Banner/>
       <TopSectionWrapper>
         <ProfileCard/>
@@ -19,7 +19,7 @@ const App = () => {
       <ProjectsSectionHeader/>
       <ProjectsGallery/>
       <BackToTopButton/>
-    </Fragment>
+    </MainContainer>
   );
 }
 

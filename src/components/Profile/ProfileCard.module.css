@@ -53,3 +53,23 @@
     font-weight: bold;
     font-size: 1.6rem;
 }
+
+@media only screen and (max-width: 420px) {
+    .container {
+        min-width: 200px;
+        /* max-width: 260px; */
+    }
+    .pp {
+        width: 120px;
+        height: 100px;
+    }
+    .name {
+        font-size: 1.2rem;
+    }
+    .quote {
+        font-size: 1rem;
+    }
+    .nameQuoteContainer {
+        width: 45%;
+    }
+}

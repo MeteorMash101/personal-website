@@ -16,8 +16,12 @@ const WORK_HISTORY = [
         date: "January 2022 - June 2022",
         location: "Davis, CA",
         bullets: [
-            "Fullstack web development to create a paper trading platform.",
-            "Worked with a client from Google to meet project expectations & divided tasks in a team of 4."
+            "Full-stack web development to create a paper trading platform.",
+            "Worked with a client from Google to meet project expectations & divided tasks in a team of 4.",
+            "Created data models for how stocks should be displayed and worked end-to-end to connect stock data to historical graphs and other visualization tools.",
+            "Collaborated with teammates to figure out optimal API designs for querying stock & user data, and integrating authentication/authorization services.",
+            "Utilized many advanced React.js features such as hooks, context API, and react specific visualization libraries (D3, ApexCharts, etc.) to create a sleek user experience.",
+            "Tech Stack: Javascript/HTML/CSS, React.js, Django, Django REST Framework, Google Cloud Services, Google App Engine."
         ]
     },
     {
@@ -25,9 +29,9 @@ const WORK_HISTORY = [
         date: "January 2022 - March 2022",
         location: "Davis, CA",
         bullets: [
-            "(More details to come as I currently work here.)",
-            "Working on the backend of the Pantry website using Django’s MTV (Models, Templates, Views) style framework.", 
-            "Maintaining the Inventory app and building the Users app as well as improving technical quality and improving usability and efficacy of the online system."
+            "Worked on the backend of the UC Davis Pantry website using Django’s MTV (Models, Templates, Views) style framework.", 
+            "Maintained the Inventory and Users app and ensured technical quality, usability and efficacy of the online system.",
+            "Tech Stack: Javascript/HTML/CSS, Python, Django, React.js, Digital OCean."
         ]
     },
     {
@@ -171,25 +175,57 @@ const SKILLS_LEARNING = [
         level: 3
     },
     {
+        language: "Typescript",
+        level: 3
+    },
+    {
+        language: "Flask",
+        level: 3
+    },
+    {
         language: "MySQL",
         level: 3
     },
     {
-        language: "Ruby",
+        language: "iOS Swift",
         level: 2
     },
+    {
+        language: "Swift UI",
+        level: 2
+    },
+    {
+        language: "Rust",
+        level: 2
+    },
+    // {
+    //     language: "Ruby",
+    //     level: 2
+    // },
     {
         language: "Ruby on Rails",
         level: 2
     },
     {
-        language: "Spring",
+        language: "Hack",
+        level: 2
+    },
+    {
+        language: "PHP",
         level: 1
     },
     {
-        language: "C",
+        language: "GraphQL",
         level: 1
     },
+    // {
+    //     language: "Spring",
+    //     level: 1
+    // },
+    // {
+    //     language: "C",
+    //     level: 1
+    // },
 ]
 
 const PROJECTS_INFO = [

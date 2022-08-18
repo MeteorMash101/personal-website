@@ -7,7 +7,7 @@
     border-radius: 15px;
     background: rgb(234, 234, 234);
     color: black;
-    width: 28%;
+    width: 22%;
     height: auto;
     margin: 1.2rem 1.2rem;
     /* transition: background-color 420ms ease-in-out; */
@@ -15,7 +15,7 @@
     transition: box-shadow 550ms ease-in-out;
     position: relative;
     max-width: 480px;
-    min-width: 420px;
+    min-width: 400px;
 }
 
 .container:hover {
@@ -41,6 +41,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
+    overflow: hidden;
 }
 
 .desc {
@@ -117,4 +118,13 @@
 .githubLogo:hover {
     color: rgb(172, 34, 206);
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .container {
+        width: 90%;
+        min-width: 270px;
+    }
+    
 }
